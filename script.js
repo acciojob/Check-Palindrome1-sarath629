@@ -8,7 +8,7 @@ function palindrome(str){
 		if(str.charAt(s)==' '){
 			s++;
 		}
-		if(str.charAt(end)==''){
+		if(str.charAt(end)==' '){
 			end--;
 		}
 		if(str.charAt(s)!=str.charAt(end)){
