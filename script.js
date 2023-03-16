@@ -5,13 +5,13 @@ function palindrome(str){
 	var end=str.length()-1;
 	while (s<end) {
 		if(str.charAt(s)!=str.charAt(end)){
-			return "false";
+			return false;
 			
 		}
 		s++;
 		end--;
 		
 	}
-	return "true";
+	return true;
 }
 module.exports = palindrome
